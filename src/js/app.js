@@ -1,7 +1,7 @@
-const regularPurchases = 30000;
+const regularPurchases = 300000;
 const regularPurchasesPercent = 0.01;
 let cashback = regularPurchases * regularPurchasesPercent;
-cashbackLimit = 300;
+cashbackLimit = 3000;
 if (cashback > cashbackLimit) {
     cashback = cashbackLimit
 }
