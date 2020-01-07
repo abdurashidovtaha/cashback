@@ -1,4 +1,8 @@
-const regularPurchases = 200;
+const regularPurchases = 30000;
 const regularPurchasesPercent = 0.01;
-const cahsback = regularPurchases * regularPurchasesPercent;
-console.log(cahsback);
+let cashback = regularPurchases * regularPurchasesPercent;
+cashbackLimit = 300;
+if (cashback > cashbackLimit) {
+    cashback = cashbackLimit
+}
+console.log(cashback);
